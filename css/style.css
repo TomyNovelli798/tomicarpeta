@@ -83,15 +83,15 @@ background-size: cover;
     width:100%;
 }
 @media(min-width:586px){
-.container{
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: 250px 80px auto 80px
-    grid-template-areas"header header header header"
-                    "navbar navbar navbar navbar"
-                    "main main main main"
-                    "footer footer footer footer";
+    .container{
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: 250px 80px auto 80px
+        grid-template-areas"header header header header"
+                        "navbar navbar navbar navbar"
+                        "main main main main"
+                        "footer footer footer footer";
+        }
     }
-}
 
 .listaH2{
     color: #e2049c;
