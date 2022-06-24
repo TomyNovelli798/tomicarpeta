@@ -4,23 +4,15 @@
     box-sizing: border-box;
 }
 
-.container{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: auto auto auto 80px;
-    grid-template-areas: "navbar navbar navbar navbar"
-                        "header header header header"
-                        "main main main main"
-                        "footer footer footer footer";
-}
+
 h1{
     color: #880e61;
     font-size: 75px;
     font-family:serif;
     text-align: center;
-    font-weight: 925px;
-    margin-right: 150px;
-    background-color:#F734B9;
+    font-weight: 700px;
+    margin-right: 130px;
+    text-decoration: underline;
 }
 .navbar{
     background-color:#F734B9 ;
@@ -48,23 +40,15 @@ padding: 10px;
 }
 .logo img{
 width: 60px;
-padding-top: 5px;
 margin: 5px;
 }
 .redes img{
     padding-top: 8px;
     margin-right: 10px;
 }
-.header{
-    grid-area: header;
-    background-image: url(../assets/img/img\ fondo.jpg);
-background-repeat: no-repeat;
-height: 450px;
-display: flex;
-justify-content: center;
-align-items: center;
-background-size: cover;
-}
+
+
+
 .main{
     grid-area: main;
 }
@@ -82,17 +66,6 @@ background-size: cover;
     grid-area: footer;
     width:100%;
 }
-@media(min-width:586px){
-    .container{
-        grid-template-columns: repeat(4,1fr);
-        grid-template-rows: 250px 80px auto 80px
-        grid-template-areas"header header header header"
-                        "navbar navbar navbar navbar"
-                        "main main main main"
-                        "footer footer footer footer";
-        }
-    }
-
 .listaH2{
     color: #e2049c;
     padding: 20px;
@@ -152,3 +125,16 @@ text-align: center;
 .textoMC{
     margin-left: 35px;
 }
+
+
+
+
+
+grid-area: header;
+    background-image: url(../assets/img/img\ fondo.jpg);
+background-repeat: no-repeat;
+height: 450px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-size: cover;
