@@ -28,54 +28,29 @@
     font-size: 30px;
     font-weight: 100px;
 }
-.navbarr{
-    width: 100%;
-    background-color:#F734B9 ;
-    display: flex;
-    justify-content: space-between;
-}
-.navbarr ul{
-    list-style: none;
-    display: flex;
-    align-items: center;
-}
-.navbarr ul li{
-    padding: 20px;
-}
-.navbarr ul li a{
-    text-decoration: none;
-    color: white;
-}
-.logoProd img{
-width: 80px;
-padding-top: 5px;
-margin: 5px;
-}
-.redesProd img{
-    padding-top: 30px;
-    margin-right: 10px;
-}
 .ropaProductos h3{
-text-align: center;
-}
-.contenedorProducto{
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-}
-.cajaProducto{
-    display: flex;
-    flex-direction: column;
-}
-.cajaProducto img{
-    width: 350px;
-    padding: 8px;
-}
-.ropaTC{
-    color: #ab2480; 
-    text-decoration: underline;
-    height: 5px;
-}
-.textoMC{
-    margin-left: 35px;
-}
+    text-align: center;
+    }
+    .contenedorProducto{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+    .cajaProducto{
+        display: flex;
+        flex-direction: column;
+    }
+    .cajaProducto img{
+        width: 350px;
+        padding: 8px;
+    }
+    .ropaTC{
+        color: #ab2480; 
+        text-decoration: underline;
+        height: 5px;
+    }
+    .textoMC{
+        margin-left: 35px;
+    }
+
+
