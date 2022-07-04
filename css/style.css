@@ -20,37 +20,29 @@
     grid-area: footer;
     width:100%;
 }
-.listaH2{
-    color: #e2049c;
-    padding: 20px;
-    text-decoration: underline;
-    font-family:serif;
-    font-size: 30px;
-    font-weight: 100px;
-}
+
 .ropaProductos h3{
     text-align: center;
     }
     .contenedorProducto{
         display: flex;
         justify-content: center;
-        padding: 20px;
+        padding: 40px;
     }
     .cajaProducto{
         display: flex;
         flex-direction: column;
     }
     .cajaProducto img{
-        width: 350px;
-        padding: 8px;
+        width: 295px;
+        padding: 6px;
     }
     .ropaTC{
         color: #ab2480; 
         text-decoration: underline;
-        height: 5px;
+        height: 20px;
+        font-size: 40px;
     }
     .textoMC{
         margin-left: 35px;
     }
-
-
