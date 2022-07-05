@@ -3,9 +3,7 @@
     padding: 0%;
     box-sizing: border-box;
 }
-.main{
-    grid-area: main;
-}
+
 .headerImg h2{
     text-align: center;
     font-family:serif;
@@ -17,20 +15,24 @@
     display: flex;
 }
 .footer{
-    grid-area: footer;
-    width:100%;
+    width: 100%;
 }
 .ropaProductos h3{
     text-align: center;
+    font-family:serif;
     }
     .contenedorProducto{
         display: flex;
         justify-content: center;
         padding: 40px;
+        font-family:serif;
+        font-weight: 30px;
     }
     .cajaProducto{
         display: flex;
         flex-direction: column;
+        border: 1px solid #000;
+        border-radius: 10px;
     }
     .cajaProducto img{
         width: 295px;
@@ -46,5 +48,11 @@
         font-size: 40px;
     }
     .btn{
-        
+        width: 200px;
+        margin-left: 45px;
+        margin-bottom: 3px;
+        background-color: #ab2480;
+        color: white;
+        border-radius: 5px;
+        border: 0px;
     }
