@@ -3,45 +3,55 @@
     padding: 0%;
     box-sizing: border-box;
 }
-h1{
-    color:#911979;
-    font-size: 50px;
-    font-family:serif;
-    padding-top: 5px;
+.headerImg h2{
     text-align: center;
-    font-weight: 700;
-    text-decoration: underline;
-}
-.navbar{
-    width: 100%;
-    height: 60px;
-    background-color:#3D9127 ;
-    display: flex;
-    justify-content: center;
-}
-.navbar ul{
-    list-style: none;
-    display: flex;
-    align-items: center;
-}
-.navbar ul li{
-padding: 10px;
-}
-.navbar ul li a{
-    text-decoration: none;
-    color: white;
-}
-
-.imgFondo img{
-    width: 1000px;
-    height: 400px;
-    padding-top: 35px;
-    padding-left: 400px;
+    font-family:serif;
+    font-size: 50px; 
 }
 .video{
-    padding-top: 25px;
+    padding-top: 10px;
+    margin-left: 10px;
+    display: flex;
 }
-
-.listaH2{
-    padding-top: 20px;
+.footer{
+    width: 100%;
 }
+.ropaProductos h3{
+    text-align: center;
+    font-family:serif;
+    }
+    .contenedorProducto{
+        display: flex;
+        justify-content: center;
+        padding: 40px;
+        font-family:serif;
+        font-weight: 30px;
+    }
+    .cajaProducto{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #000;
+        border-radius: 10px;
+    }
+    .cajaProducto img{
+        width: 295px;
+        padding: 6px;
+    }
+    .textoMC{
+        margin-left: 35px;
+    }
+    .ropaTC{
+        color: #ab2480; 
+        text-decoration: underline;
+        height: 20px;
+        font-size: 40px;
+    }
+    .btn{
+        width: 200px;
+        margin-left: 45px;
+        margin-bottom: 3px;
+        background-color: #ab2480;
+        color: white;
+        border-radius: 5px;
+        border: 0px;
+    }
